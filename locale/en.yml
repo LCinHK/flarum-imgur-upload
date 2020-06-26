@@ -2,6 +2,8 @@ imgur-upload:
   admin:
     settings:
         title: Imgur Upload settings
+        API-URL: Imgur upload API URL(Change this to your proxy pass URL if cannot access Imgur)
+        image-URL: Imgur image URL(Change this to your proxy pass URL(the "https://i.imgur.com" part) if cannot access Imgur)
   forum:
     upload: Press or paste to upload
     loading: Uploading...

@@ -10,7 +10,7 @@ use Flarum\Settings\SettingsRepositoryInterface;
 class LoadSettingsFromDatabase
 {
     protected $addSettings = [
-        'client-id'
+        'client-id','API-URL','image-URL'
     ];
 
     /**

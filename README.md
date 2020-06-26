@@ -12,7 +12,7 @@ Compared to the original extension (matpompili/flarum-imgur-upload), this extens
 - has been rewritten to use Flarum components
 - supports beta 8
 - has a more polished UI
-
+- Added support for proxy_pass URLs --@LCinHK
 ![Demo GIF](https://i.imgur.com/46VYGzz.gif)
 
 ## Installation
@@ -30,6 +30,7 @@ You need to choose a name for your application (e.g. My Forum), and select *Anon
 
 Once your application has been registered, your Client ID will be available [here](https://imgur.com/account/settings/apps). Put it in the configuration of the extension, in your admin page.
 
+You may change the Imgur URL into your own proxy_pass URL
 ## Credits
 
 The original work for this extension was done by @matpompili.
