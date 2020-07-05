@@ -114,7 +114,7 @@ export default class UploadButton extends Component {
       let proxyimageLink = imageLink.replace("https://i.imgur.com",app.forum.attribute('imgur-upload.image-URL'));
       let proxypreviewLink = previewLink.replace("https://i.imgur.com",app.forum.attribute('imgur-upload.image-URL'));
 
-      let stringToInject = `[URL=${proxyimageLink}][IMG]${proxypreviewLink}[/IMG][/URL]\n`;
+      let stringToInject = `[IMG]${proxyimageLink}[/IMG]\n`;
         this.props.textArea.insertAtCursor(stringToInject);
 
         // After a bit, re-enable upload
