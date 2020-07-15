@@ -1,6 +1,6 @@
 {
-    "name": "matteocontrini/flarum-imgur-upload",
-    "description": "Simple image upload from the Flarum editor",
+    "name": "LCinHK/flarum-imgur-upload",
+    "description": "Simple image upload from the Flarum editor, added support for custom proxy_pass URL",
     "type": "flarum-extension",
     "license": "GPL-3.0",
     "authors": [
@@ -11,6 +11,10 @@
       {
         "name": "Matteo Pompili",
         "email": "matpompili@gmail.com"
+      },
+	  {
+        "name": "LCinHK",
+        "email": "admin@alevel.tech"
       }
     ],
     "require": {

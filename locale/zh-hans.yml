@@ -1,0 +1,11 @@
+imgur-upload:
+  admin:
+    settings:
+      title: Imgur上传设置
+      API-URL: Imgur 上传 API URL(如果你不能访问Imgur的话，换成自己的反代URL)
+      image-URL: Imgur image URL(换成自己的反代URL("https://i.imgur.com"这部分)如果你不能访问Imgur的话)
+  forum:
+    upload: 按或粘贴以上传图片
+    loading: 正在上传……
+    done: 上传完毕！
+    error: 遇到错误

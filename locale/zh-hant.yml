@@ -1,0 +1,11 @@
+imgur-upload:
+  admin:
+    settings:
+      title: Imgur上載設置
+      API-URL: Imgur 上載 API URL(如果你不能訪問Imgur的話，換成自己的反代URL)
+      image-URL: Imgur image URL(換成自己的反代URL("https://i.imgur.com"這部分)如果你不能訪問Imgur的話)
+  forum:
+    upload: 按或粘貼以上載圖片
+    loading: 正在上載……
+    done: 上載完畢！
+    error: 遇到錯誤

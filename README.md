@@ -1,4 +1,4 @@
-# flarum-imgur-upload v3 [![Packagist](https://img.shields.io/packagist/v/matteocontrini/flarum-imgur-upload.svg)](https://packagist.org/packages/matteocontrini/flarum-imgur-upload)
+# flarum-imgur-upload v3 [![Packagist](https://img.shields.io/packagist/v/LCinHK/flarum-imgur-upload.svg)](https://packagist.org/packages/LCinHK/flarum-imgur-upload)
 
 **flarum-imgur-upload** is a [Flarum](https://github.com/flarum/flarum/) extension that allows posting images in Flarum posts using [Imgur](https://imgur.com/) for image hosting.
 
@@ -12,13 +12,15 @@ Compared to the original extension (matpompili/flarum-imgur-upload), this extens
 - has been rewritten to use Flarum components
 - supports beta 8
 - has a more polished UI
-- Added support for proxy_pass URLs --@LCinHK
-![Demo GIF](https://i.imgur.com/46VYGzz.gif)
+- Support Custom Imgur proxy_pass URLs --@LCinHK
+- 增加了对反代URL的支持 --@LCinHK
+
+![Demo GIF](https://i.imgur.com/46VYGzz.gif) ←Imgur gif,maybe not available in some places
 
 ## Installation
 
 ```
-composer require matteocontrini/flarum-imgur-upload
+composer require LCinHK/flarum-imgur-upload
 ```
 
 If you previously used `matpompili/flarum-imgur-upload` (the original work on this extension by Matteo Pompili) or `botfactoryit/flarum-imgur-upload`, you should disable and remove those extensions when you upgrade to beta 8.
@@ -30,7 +32,9 @@ You need to choose a name for your application (e.g. My Forum), and select *Anon
 
 Once your application has been registered, your Client ID will be available [here](https://imgur.com/account/settings/apps). Put it in the configuration of the extension, in your admin page.
 
-You may change the Imgur URL into your own proxy_pass URL
+If your clients cannot access Imgur, follow [this guide](https://blog.alevel.tech/2020/06/29/flarum%E5%8F%8D%E4%BB%A3%E4%BD%BF%E7%94%A8Imgur%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87/) (In Chinese) to set up a proxy_pass for Imgur.
+
+如果你的客户无法访问Imgur，可按照[这个指南](https://blog.alevel.tech/2020/06/29/flarum%E5%8F%8D%E4%BB%A3%E4%BD%BF%E7%94%A8Imgur%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87/) 来设置Imgur反向代理
 ## Credits
 
 The original work for this extension was done by @matpompili.
