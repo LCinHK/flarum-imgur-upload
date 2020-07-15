@@ -1,5 +1,5 @@
 {
-    "name": "LCinHK/flarum-imgur-upload",
+    "name": "lcinhk/flarum-imgur-upload",
     "description": "Simple image upload from the Flarum editor, added support for custom proxy_pass URL",
     "type": "flarum-extension",
     "license": "GPL-3.0",

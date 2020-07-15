@@ -20,7 +20,7 @@ Compared to the original extension (matpompili/flarum-imgur-upload), this extens
 ## Installation
 
 ```
-composer require LCinHK/flarum-imgur-upload
+composer require lcinhk/flarum-imgur-upload
 ```
 
 If you previously used `matpompili/flarum-imgur-upload` (the original work on this extension by Matteo Pompili) or `botfactoryit/flarum-imgur-upload`, you should disable and remove those extensions when you upgrade to beta 8.

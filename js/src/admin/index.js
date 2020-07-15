@@ -3,5 +3,5 @@ import ImgurUploadSettingsModal from './components/ImgurUploadSettingsModal';
 
 app.initializers.add('imgur-upload', () => {
 	// https://discuss.flarum.org/d/5083-getting-settingsmodal-to-appear
-	app.extensionSettings['LCinHK-imgur-upload'] = () => app.modal.show(new ImgurUploadSettingsModal());
+	app.extensionSettings['lcinhk-imgur-upload'] = () => app.modal.show(new ImgurUploadSettingsModal());
 });
