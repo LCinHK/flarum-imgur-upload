@@ -32,9 +32,9 @@ You need to choose a name for your application (e.g. My Forum), and select *Anon
 
 Once your application has been registered, your Client ID will be available [here](https://imgur.com/account/settings/apps). Put it in the configuration of the extension, in your admin page.
 
-If your clients cannot access Imgur, follow [this guide](https://blog.alevel.tech/2020/06/29/flarum%E5%8F%8D%E4%BB%A3%E4%BD%BF%E7%94%A8Imgur%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87/) (In Chinese) to set up a proxy_pass for Imgur.
+If your clients cannot access Imgur, follow [this guide](https://blog.alevel.tech/2020/06/flarum%E5%8F%8D%E4%BB%A3%E4%BD%BF%E7%94%A8Imgur%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87/) (In Chinese) to set up a proxy_pass for Imgur.
 
-如果你的客户无法访问Imgur，可按照[这个指南](https://blog.alevel.tech/2020/06/29/flarum%E5%8F%8D%E4%BB%A3%E4%BD%BF%E7%94%A8Imgur%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87/) 来设置Imgur反向代理
+如果你的客户无法访问Imgur，可按照[这个指南](https://blog.alevel.tech/2020/06/flarum%E5%8F%8D%E4%BB%A3%E4%BD%BF%E7%94%A8Imgur%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87/) 来设置Imgur反向代理
 ## Credits
 
 The original work for this extension was done by @matpompili.
